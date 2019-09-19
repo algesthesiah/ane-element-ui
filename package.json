@@ -2,14 +2,19 @@
   "name": "@ane/element-ui",
   "version": "1.0.0",
   "description": "Convenient methods on element and vue",
-  "author":{
-    "name":"Algesthesiahunter",
+  "author": {
+    "name": "Algesthesiahunter",
     "email": "541877028@qq.com"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Algesthesiahunter/ane-element-ui.git",
   "keywords": [
     "ane",
     "element-ui",
     "vue"
-  ]
+  ],
+  "license": "ISC"
 }
