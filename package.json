@@ -1,0 +1,12 @@
+{
+  "name": "@ane/element-ui",
+  "version": "1.0.0",
+  "description": "Convenient methods on element and vue",
+  "main": "index.js",
+  "keywords": [
+    "ane",
+    "element-ui",
+    "vue"
+  ],
+  "author": "Algesthesiahunter"
+}
