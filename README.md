@@ -1,6 +1,13 @@
 # element-ui 一些便捷操作
 
+## 需要在vue 和 element-ui 之后引入
+
+``` javascript
+import 'ane-element-ui'
+```
+
 ## 便捷弹窗
+
 ### 用法
 ``` javascript
 this.$msg({
