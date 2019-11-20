@@ -41,6 +41,11 @@ Vue.prototype.$msg = (params = {}) => {
         } else {
           instance.confirmButtonText = confirmButtonTextLoading
         }
+        if(!callBack){
+          callBack=() => new Promise((resolve) => {
+            resolve()
+          })
+        }
         callBack().then(() => {
           done()
         }).finally(() => {
